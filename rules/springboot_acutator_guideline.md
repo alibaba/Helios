@@ -1,0 +1,1 @@
+在配置acutator时禁止暴露除了health、info以外的任意端点

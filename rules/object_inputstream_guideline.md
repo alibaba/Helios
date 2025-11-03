@@ -1,0 +1,4 @@
+为了防止在反序列化漏洞，在反序列化时应通过重载ObjectInputStream的resolveClass方法，对反序列化的类进行白名单限制。
+1. 也要把反序列化类Field所依赖的class加入到白名单中
+2. 把String和基础类型及其数组形式也默认加到白名单中
+3. 把Primitive Type及其数组形式也默认加到白名单中

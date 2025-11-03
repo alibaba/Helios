@@ -1,0 +1,1 @@
+为了防止模板注入，应通过`VelocityEngine.setProperty(RuntimeConstants.UBERSPECT_CLASSNAME, org.apache.velocity.util.introspection.SecureUberspector.class.getName());`配置安全策略，防止出现模板注入漏洞。

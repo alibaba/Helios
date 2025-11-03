@@ -1,0 +1,1 @@
+为了防止模板注入，需要通过`Configuration.setNewBuiltinClassResolver(freemarker.core.TemplateClassResolver.ALLOWS_NOTHING_RESOLVER)`和通过`Configuration.setAPIBuiltinEnabled(false)`配置安全策略

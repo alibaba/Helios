@@ -1,0 +1,33 @@
+{
+  "guideline_mapping": {
+    "xxe": "解析XML的场景",
+    "sqli": "进行SQL查询的场景，只连接数据库但是不进行SQL查询不属于该场景",
+    "ognl": "执行OGNL表达式的场景",
+    "spel": "执行SpEL表达式的场景",
+    "velocity": "使用Velocity模板渲染的场景",
+    "freemarker": "使用Freemarker模板渲染的场景",
+    "groovy": "执行Groovy脚本的场景",
+    "hessian": "使用Hessian反序列化数据的场景",
+    "snakeyaml": "使用SnakeYAML反序列化数据的场景",
+    "object_inputstream": "使用ObjectInputStream反序列化数据的场景",
+    "jdbc_driver_manager": "连接用户提供的数据库HOST，PORT，USER，PASSWORD或者JDBCURL的场景",
+    "file_read": "读取文件的场景",
+    "file_write": "写入文件的场景",
+    "unzip": "解压缩文件的场景",
+    "cmdi": "执行命令的场景",
+    "ssrf": "执行网络请求的场景",
+    "ak_hardcode_oss": "使用OSS的场景",
+    "okhttp": "使用OkHttp执行网络请求的场景",
+    "ecb": "使用AES加密数据的场景",
+    "hash": "使用哈希函数的场景",
+    "flexjson": "使用FlexJSON反序列化数据的场景",
+    "open_redirect": "重定向URL的场景",
+    "random": "生成随机数的场景",
+    "script_engine": "执行ScriptEngine脚本的场景",
+    "xss": "将用户输入直接拼接至HTML的场景",
+    "springboot_acutator": "使用Spring Boot Actuator的场景",
+    "springboot_properies": "使用Spring Boot的Properies的场景",
+    "xml_decoder": "使用XMLDecoder反序列化数据的场景",
+    "xpath": "使用XPath表达式的场景"
+  }
+}

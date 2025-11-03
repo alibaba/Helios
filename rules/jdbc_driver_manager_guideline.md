@@ -1,0 +1,2 @@
+为了防止在连接用户提供的JDBC URL出现反序列化漏洞和任意文件读取，在连接之前需要对JDBC URL中的参数进行白名单验证，只允许设置
+`"user", "password", "useSSL", "serverTimezone", "connectTimeout", "socketTimeout", "characterEncoding", "useUnicode", "ssl", "sslmode", "loginTimeout", "allowPublicKeyRetrieval"`, 如果遇见白名单外的参数，要抛出IllegalArgumentException

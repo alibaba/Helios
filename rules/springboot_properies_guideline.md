@@ -1,0 +1,1 @@
+禁止在springboot的properies中配置配置明文凭证信息，比如密码，AK，SK等

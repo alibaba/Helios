@@ -1,0 +1,1 @@
+禁止在代码中硬编码AK，SK，凭据应尽量通过ECS Role等方式获取STS，如果必须使用固定凭据，请尽量通过环境变量CredentialProvider，或通过`System.getenv`从环境变量中获取
